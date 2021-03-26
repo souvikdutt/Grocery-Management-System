@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0;
+	background-image: url("../images/BasmatiRice.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+	background-color: #f4f7ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: calibri;
+    padding: 15px 50px;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0.05);
+    z-index: 1;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    padding: 10px 15px;
+    color: #6c706c;
+    font-size: 12px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #292929;
+    font-family: poppins;
+}
+.lang{
+    color: #292929;
+}
+.menu li a:hover, .active{
+    background-color: #292929;
+    color: #ffffff !important;
+    font-weight: 700;
+    transition: all ease 0.4s;
+}
+.box{
+	margin-top: 20px;
+	background-color: #edf1fd;
+	width: 50%;
+	height: auto;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%);
+	box-sizing: border-box;
+	border:none;
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table,tr,td{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table{
+	width: 100%;
+}
+.col{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border: 1px solid white;
+}
+.goHome a{
+	text-decoration: none;
+}
+.goHome button{
+	padding: 15px;
+	background-image: linear-gradient(#eb3349,#f45c43);
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: transform(0.9s);
+}
+.goHome button:hover{
+	background-image:linear-gradient(red,red);
+	transform: scale(1.05);
+}
+.goHome{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}

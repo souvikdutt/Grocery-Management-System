@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.heading{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: calibri;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.biller,.buyer{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box
+}
+.biller_info,.buyer_info{
+    display: flex;
+    flex-direction: column;
+}
+.biller_info label,.buyer_info label{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.biller_info span{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.buyer_info span{
+    font-size: 15px;
+}
+.biller_address,.buyer_address{
+    display: flex;
+    flex-direction: column;
+}
+.biller_address label,.buyer_address label{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.biller_address span,.buyer_address span{
+    margin-top: 3px;
+    font-size: 15px;
+}
+.buyer,.biller{
+    margin-top: 2px;
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.detaied_bill{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.detaied_bill table{
+    width: 100%;
+    text-align: center;
+}
+.detaied_bill th{
+    border: 1px solid black;
+    padding: 2px;
+}
+.detaied_bill table{
+    border-collapse: collapse;
+}
+.total_details {
+    margin-top: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.total_details table{
+    /* border: 1px solid black; */
+    text-align: left;
+    margin-right: 15px;
+}
+.total_details table td{
+    text-align: left;
+}
+
+
+
